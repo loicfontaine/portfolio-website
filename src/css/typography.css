@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100;200;300;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'M PLUS 2', sans-serif;
+    color: var(--tertiary-color);
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    overflow: hidden;
+        color: inherit;
+            text-decoration: none;
+                display: block;
+                    position: relative;
+                    padding: 0.2em 0;
+}
+
+
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: hotpink;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+h1:hover::after,
+h2:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+}
+
+
+
+h1::after {
+    opacity: 1;
+    transform: translate3d(-100%, 0, 0);
+}
+
+h1:hover::after,
+h1:focus::after {
+    transform: translate3d(0, 0, 0);
+}
+
+
+
+
+h2 {
+    font-size: 1.9375rem;
+    font-weight: 380;
+    margin: var(--default-margin);
+    margin-top: 6rem;
+}
+
+a {
+    color: transparent;
+}

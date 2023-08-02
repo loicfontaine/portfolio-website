@@ -1,0 +1,26 @@
+.service {
+    font-size: 4.5rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.service svg {
+    visibility: hidden;
+
+}
+
+.service:hover svg {
+    visibility: visible;
+}
+
+
+
+.right {
+    align-items: flex-end;
+}
+
+hr {
+    width: 100%;
+    border: 0.02rem solid var(--tertiary-color);
+}

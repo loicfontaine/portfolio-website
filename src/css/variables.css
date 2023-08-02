@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #333F3D;
+    --secondary-color: #FBE053;
+    --tertiary-color: #ffffff;
+    --background-gold: #FBE053;
+    --gold: #826d00;
+    --default-transition: 300ms ease-in-out;
+    --default-margin: 0 8%;
+}
