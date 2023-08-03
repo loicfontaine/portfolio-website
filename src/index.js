@@ -66,47 +66,47 @@ const icons = {
 
 const projects = [
   {
-    title: "Sleep",
+    title: "Green Lama - Ecosystème digitale",
     tools: [
       {
         title: "Illustrator",
         icon: icons.illustrator,
       },
       { title: "Wordpress", icon: icons.wordpress },
+      { title: "Indesign", icon: icons.wordpress },
     ],
-    tags: ["Marketing", "UX Design"],
-    date: "07/08/20",
+    tags: ["Marketing", "Communication", "Design graphique"],
+    date: "01/2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl vel pretium lectus quam. At quis risus sed vulputate odio ut enim. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Purus non enim praesent elementum facilisis leo vel fringilla est. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Consectetur purus ut faucibus pulvinar ",
-    image: "https://via.placeholder.com/150",
+      "Création d'un site et son écosystème digitale pour une marque fictive autour de la mode écoresponsable. Lors de ce projet, nous avons créé l'identité visuelle de la marque, mise en place un site web Wordpress et développé les réseaux sociaux. Parallèlement, nous avons optimisé le référencement du site ainsi qu'une campagne SEA . Malheureusement, le site web n'est plus hébergé et n'est disponible uniquement sur la Wayback machine. Ce projet a été réalisé à deux lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/Green-lama.png",
     links: [
       {
         title: "Voir le site",
-        link: "https://via.placeholder.com/150",
+        link: "https://web.archive.org/web/20220504132726/https://green-lama.ch/",
       },
-      { title: "voir le code", link: "https://via.placeholder.com/150" },
+      { title: "voir le rapport", link: "./fichiers/Rapport-GreenLama.pdf" },
     ],
   },
   {
     title: "L'impact de l'hygiène de vie sur le sommeil",
     tools: [
       {
-        title: "figma",
+        title: "Figma",
         icon: icons.illustrator,
       },
       { title: "D3", icon: icons.wordpress },
       { title: "Javascript", icon: icons.wordpress },
     ],
-    tags: ["Marketing", "UX Design"],
-    date: "07/08/20",
+    tags: ["Programmation", "UX Design"],
+    date: "05/2023",
     description:
       "Site web réalisé en JS avec la librairie D3. L'objectif de ce travail était d'utiliser un jeu de donnée, trouvé sur internet et de raconter une histoire à partir de ce dernier. La librairie de D3 permet de faire des graphiques avec les données obtenues. Ce travail a été réalisé lors de mes études à l'HEIG-VD.",
-    image:
-      "https://s3-alpha-sig.figma.com/img/48aa/1cc0/246ee2bc6c15c59565475f033a75a71c?Expires=1691366400&Signature=c2ncmNnR40bQC~MNNvPCaqxa3YMrjNCavx3J-3iGaq1H49x61ehqbrGJ03SbzthmovlaLz~VmtXswDHlUxp9ik8ETixqVmzf1WQSoSSmtwmF~HgJx1CxpclrOMGl8Jm4K2wGpkl7BapEZiw1DN6HI-sGh3wEEhN2SsUPxwXDLZwAo1KXrpVE-tIXXKcgB4H7WmNWchqw0T0Dp02YevRoiBm-55kSMoHhCaFdBzt--EMMLXZhvXZ1SMB02LNn2Y9697wjmafoZwhdjzgH6cxTTJ7L7k~9MkHbJ4-avbLdrWwIePmkHRio-haPzAiWDT~19ZQMh02feYNp1ijqyqdo3g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+    image: "./fichiers/sleep.png",
     links: [
       {
         title: "Voir le site",
-        link: "sleep.lfontaine.ch",
+        link: "https://sleep.lfontaine.ch",
       },
       {
         title: "voir le code",
@@ -124,7 +124,7 @@ const projects = [
       { title: "Photoshop", icon: icons.wordpress },
     ],
     tags: ["Design Graphique"],
-    date: "07/08/20",
+    date: "03/2022",
     description:
       "Création d'une charte graphique pour une marque de bière. Ce travail a été réalisé lors de mes études à l'HEIG-VD.",
     image: "./fichiers/Tartempion.jpg",
@@ -132,6 +132,123 @@ const projects = [
       {
         title: "Voir la charte graphique",
         link: "./fichiers/CharteGraphique_Tartempion.pdf",
+      },
+    ],
+  },
+  {
+    title: "Affiche pour Decathlon",
+    tools: [
+      {
+        title: "Illustrator",
+        icon: icons.illustrator,
+      },
+      { title: "Indesign", icon: icons.wordpress },
+    ],
+    tags: ["Design Graphique"],
+    date: "02/2021",
+    description:
+      "Création d'une affiche afin de comparer les différents produits Compex. Cette affiche a été crée à la demande de Decathlon et est affichée dans leurs magasins. Ce travail a été réalisé lors de mon stage chez Compex.",
+    image: "./fichiers/Affiche_Compex.jpg",
+    links: [
+      {
+        title: "Voir l'affiche",
+        link: "./fichiers/Affiche_Compex.jpg",
+      },
+    ],
+  },
+  {
+    title: "Carrousel Instagram - Compex",
+    tools: [
+      {
+        title: "Illustrator",
+        icon: icons.illustrator,
+      },
+      { title: "Indesign", icon: icons.wordpress },
+    ],
+    tags: ["Design Graphique"],
+    date: "05/2021",
+    description:
+      "Création d'un post Instagram carrousel pour un concours. Ce travail a été réalisé lors de mon stage chez Compex.",
+    image: "./fichiers/Carrousel_Compex.jpg",
+    links: [
+      {
+        title: "Voir le post Instagram",
+        link: "https://www.instagram.com/p/CPLYdRPlOXY/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+      },
+    ],
+  },
+  {
+    title: "Analyse de l'écosystème digitale de Breitling",
+    tools: [{ title: "Indesign", icon: icons.wordpress }],
+    tags: ["Marketing"],
+    date: "12/2021",
+    description:
+      "Analyse de l'écosystème digitale de Breitling. Ce projet a été réalisé à deux lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/Breitling.jpg",
+    links: [
+      {
+        title: "Voir le rapport",
+        link: "./fichiers/Ecosysteme_digitale_Breitling.pdf",
+      },
+    ],
+  },
+  {
+    title: "Prototype - Radio On en parle",
+    tools: [{ title: "Figma", icon: icons.wordpress }],
+    tags: ["UX", "UI Design", "Design Graphique"],
+    date: "03/2023",
+    description:
+      "Réflexion autour de l'expérience utilisateur des auditeurs de la radio RTS 'On en parle', puis réalisation d'un prototype d'un site web afin de répondre à leur besoin. Ce projet a été réalisé aux Hackdays de la RTS.",
+    image: "./fichiers/On-en-parle.jpg",
+    links: [
+      {
+        title: "Voir le figma",
+        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
+      },
+    ],
+  },
+  {
+    title: "Brochure FoxTown",
+    tools: [{ title: "Figma", icon: icons.wordpress }],
+    tags: ["UX", "UI Design", "Design Graphique"],
+    date: "03/2023",
+    description:
+      "Réflexion autour de l'expérience utilisateur des auditeurs de la radio RTS 'On en parle', puis réalisation d'un prototype d'un site web afin de répondre à leur besoin. Ce projet a été réalisé aux Hackdays de la RTS.",
+    image: "./fichiers/On-en-parle.jpg",
+    links: [
+      {
+        title: "Voir le figma",
+        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
+      },
+    ],
+  },
+  {
+    title: "Couleur 3 - Site web",
+    tools: [{ title: "Figma", icon: icons.wordpress }],
+    tags: ["UX", "UI Design", "Design Graphique"],
+    date: "03/2023",
+    description:
+      "Réflexion autour de l'expérience utilisateur des auditeurs de la radio RTS 'On en parle', puis réalisation d'un prototype d'un site web afin de répondre à leur besoin. Ce projet a été réalisé aux Hackdays de la RTS.",
+    image: "./fichiers/On-en-parle.jpg",
+    links: [
+      {
+        title: "Voir le figma",
+        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
+      },
+    ],
+  },
+  {
+    title: "Twitch",
+    tools: [{ title: "Figma", icon: icons.wordpress }],
+    tags: ["UX", "UI Design", "Design Graphique"],
+    date: "03/2023",
+    description:
+      "Réflexion autour de l'expérience utilisateur des auditeurs de la radio RTS 'On en parle', puis réalisation d'un prototype d'un site web afin de répondre à leur besoin. Ce projet a été réalisé aux Hackdays de la RTS.",
+    image: "./fichiers/On-en-parle.jpg",
+    links: [
+      {
+        title: "Voir le figma",
+        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
       },
     ],
   },
@@ -155,12 +272,13 @@ const contacts = [
     link: "mailto:contact@lfontaine.ch",
     icon: icons.mail,
   },
-
+  /*
   {
     title: "behance.net/loic-fontaine",
     link: "https://www.behance.net/loic-fontaine",
     icon: icons.behance,
   },
+  */
 ];
 
 const projectsContainer = document.querySelector(".projects-container");
