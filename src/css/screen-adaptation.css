@@ -26,6 +26,7 @@
         }
         .question-text {
             font-size: 2rem;
+            padding-left: 0;
         }
 
         .me-container {
@@ -66,11 +67,66 @@
 
 @media (max-width: 800px) {
 
+
+.portrait {
+        border-radius: 3rem;
+    }
+
+    .image-container::after {
+        border-radius: 3rem;
+
+    }
+
+
+
         .service {
                 font-size: 2rem;
                 font-weight: 400;
             }
+.btn-text {
+    font-size: 0.8rem;
 }
+
+
+.question-text {
+    font-size: 1.3rem;
+    padding: 2rem;
+}
+
+.big-btn {
+
+    flex-direction: row;
+    align-items: center;
+   height: 1.6rem;
+   border-radius: 80px;
+}
+
+.big-btn .icon svg {
+
+    transform: scale(0.5);
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.arrow {
+    display: none;
+}
+
+.social-header {
+    margin: 0;
+}
+
+.description {
+    font-size: 1.1rem;
+}
+
+}
+
 
 @media (max-width: 500px) {
 
@@ -86,6 +142,7 @@
 
     h1 {
         font-size: 3rem;
+        margin-top:0;
     }
 
     .top-buttons-container {
@@ -100,5 +157,19 @@
         #header nav a {
             margin: 1.2rem;
         }
+
+    .service {
+        font-size: 1.5rem;
+    }
+
+    .services-container {
+        margin: 0;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+
 
 }
