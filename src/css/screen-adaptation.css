@@ -132,7 +132,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .portrait {
         border-radius: 2rem;
@@ -183,7 +183,7 @@
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
             #header nav a {
                     margin: 1rem;
