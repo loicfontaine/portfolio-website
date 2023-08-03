@@ -12,139 +12,44 @@
 
 
     <div class="box-line flex-container">
+ <!-----------------------------------    Blurred ellipse    ----------------------------------->
+    <div class="blurred-ellipse" style ="top: -20vh; left: -10vw;"></div>
+    <div class="blurred-ellipse" style ="top: 70vh; left: 80vw;"></div>
+    <div class="blurred-ellipse" style ="top: 150vh; left: -10vw;"></div>
+    <div class="blurred-ellipse" style ="top: 190vh; left: 85vw;"></div>
+
           <!-----------------------------------    Header    ----------------------------------->
-    
     <div class="header-container">
       <div id="header">
-      <div>
-        <svg
-          width="156"
-          height="83"
-          viewBox="0 0 156 83"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g filter="url(#filter0_f_5_89)">
-            <ellipse cx="78" cy="41.5" rx="45" ry="8.5" />
-          </g>
-          <defs>
-            <filter
-              id="filter0_f_5_89"
-              x="0"
-              y="0"
-              width="156"
-              height="83"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="BackgroundImageFix"
-                result="shape"
-              />
-              <feGaussianBlur
-                stdDeviation="16.5"
-                result="effect1_foregroundBlur_5_89"
-              />
-            </filter>
-          </defs>
-          <a href="#top">
-            <text x="63" y="50" font-size="18" fill="white">Moi</text>
+      <nav id="navigation-bar">
+          <a href="#moi">
+            Moi
           </a>
-        </svg>
-      </div>
-      <div>
-        <svg
-          width="156"
-          height="83"
-          viewBox="0 0 156 83"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g filter="url(#filter0_f_5_89)">
-            <ellipse cx="78" cy="41.5" rx="45" ry="8.5" />
-          </g>
-          <defs>
-            <filter
-              id="filter0_f_5_89"
-              x="0"
-              y="0"
-              width="156"
-              height="83"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="BackgroundImageFix"
-                result="shape"
-              />
-              <feGaussianBlur
-                stdDeviation="16.5"
-                result="effect1_foregroundBlur_5_89"
-              />
-            </filter>
-          </defs>
+        
+<a href="#services">
+            Services
+          </a>
+
           <a href="#projets">
-            <text x="49" y="50" font-size="18" fill="white">Projets</text>
+            Projets
           </a>
-        </svg>
-      </div>
-      <div>
-        <svg
-          width="156"
-          height="83"
-          viewBox="0 0 156 83"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g filter="url(#filter0_f_5_89)">
-            <ellipse cx="78" cy="41.5" rx="45" ry="8.5" />
-          </g>
-          <defs>
-            <filter
-              id="filter0_f_5_89"
-              x="0"
-              y="0"
-              width="156"
-              height="83"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="BackgroundImageFix"
-                result="shape"
-              />
-              <feGaussianBlur
-                stdDeviation="16.5"
-                result="effect1_foregroundBlur_5_89"
-              />
-            </filter>
-          </defs>
+        
           <a href="#contact">
-            <text x="44" y="50" font-size="18" fill="white">Contact</text>
+            Contact
           </a>
-        </svg>
-      </div>
+        </nav>
       </div>
     </div>
 
 
     <!-----------------------------------    ME    ----------------------------------->
-        <div class="me-container">
+        <section id="moi" class="me-container">
 
         <div>
         <h1>Loïc<br>Fontaine</h1>
         <div class="typed profession-name"></div>
         <div class="top-buttons-container">
-          <a href="/src/fichiers/LF_CV.pdf" download="CV_LoicFontaine.pdf">
+          <a href="fichiers/LF_CV.pdf" download="CV_LoicFontaine.pdf">
             <div class="btn">
               Voir le CV
               <svg width="25" height="25" viewBox="0 0 25 25">
@@ -178,9 +83,9 @@
       </div>
       
 <div class="image-container">
-<img class="portrait" src="/src/fichiers/pp.jpg" />
+<img class="portrait" src="fichiers/pp.jpg" />
 </div>
-</div>
+</section>
 <div class="mouse-container"><div class="scroll-down-icon"></div></div>
 
   
@@ -190,9 +95,10 @@
     
 
     <!-----------------------------------    Services    ----------------------------------->
+    <section id="services">
     <h2 class="reveal">Services</h2>
     <hr class="reveal"/>
-    <div class="flex-container">
+    <div class="services-container">
       <div class="column-container">
         <div class="service reveal fade-left">
           <svg
@@ -233,7 +139,7 @@
       </div>
     </div>
     <hr class="reveal"/>
-    <div class="flex-container">
+    <div class="services-container">
       <div class="column-container">
         <div class="service reveal fade-left">
           <svg
@@ -273,7 +179,7 @@
       </div>
     </div>
     <hr class="reveal"/>
-    <div class="flex-container">
+    <div class="services-container">
       <div class="column-container">
         <div class="service reveal fade-left">
           <svg
@@ -313,10 +219,10 @@
       </div>
     </div>
     <hr class="reveal"/>
-
+    </section>
     <!-----------------------------------    Projects    ----------------------------------->
-    <h2 id="projets" class="reveal fade-bottom">Projets</h2>
-    <div class="grid-container projects-container">
+    <h2 class="reveal fade-bottom">Projets</h2>
+    <section class="projects-container" id="projets">
       <template id="project-template">
       <div class="project reveal fade-bottom">
         <div class="project-header">
@@ -373,11 +279,13 @@
         </div>
  
 
-        <!-----------------------------------    Contact    ----------------------------------->
+        
       </template>
-           </div>
-    <h2 id="contact" class="reveal fade-bottom">Contact</h2>
-    <div class="flex-container">
+    </section>
+
+           <!-----------------------------------    Contact    ----------------------------------->
+    <h2 class="reveal fade-bottom">Contact</h2>
+    <section class="flex-container" id="contact">
       <div class="column-container">
         <div class="grid-container contacts-container">
           
@@ -413,7 +321,7 @@
           Si vous avez un projet ou une question , n'hésitez pas à me contacter
         </div>
       </div>
-    </div>
+    </section>
 <!-----------------------------------    Footer    ----------------------------------->
 
     <div id="footer">Un site entièrement développé par Loïc Fontaine</div>

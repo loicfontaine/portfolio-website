@@ -24,3 +24,9 @@ hr {
     width: 100%;
     border: 0.02rem solid var(--tertiary-color);
 }
+
+.services-container {
+    display: flex;
+    margin: 0 4.3%;
+    align-items: center;
+}

@@ -61,6 +61,7 @@
     -webkit-border-radius: 70px;
     -moz-border-radius: 70px;
     border-radius: 30px;
+    min-width: max-content;
 }
 
 .big-btn .arrow {

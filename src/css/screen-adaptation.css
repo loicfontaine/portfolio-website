@@ -1,0 +1,104 @@
+@media (max-width: 1620px) {
+
+
+    .service {
+        font-size: 3.5rem;
+    }
+#contact {
+
+    flex-direction: column-reverse;
+}
+.column-container {
+    width: 100%;
+    height: 50%;
+
+}
+    
+}
+
+@media (max-width: 1100px) {
+
+    .project {
+        height: 33rem;
+    }
+        .service {
+            font-size: 2.5rem;
+        }
+        .question-text {
+            font-size: 2rem;
+        }
+
+        .me-container {
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            margin: 3rem;
+        }
+
+        .portrait {
+            width: 35%;
+        }
+
+        .image-container::after {
+           width: 35%;
+                
+        }
+        .image-container {
+            justify-content: flex-end;
+        }
+
+}
+
+
+@media (max-width: 1000px) {
+        .image-container {
+                justify-content: center;
+            }
+
+        
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+}
+
+
+
+@media (max-width: 800px) {
+
+        .service {
+                font-size: 2rem;
+                font-weight: 400;
+            }
+}
+
+@media (max-width: 500px) {
+
+    .portrait {
+        border-radius: 2rem;
+          }
+            
+                .image-container::after {
+                transform: translateY(2rem) translateZ(-7rem) translateX(-4rem);
+                border-radius: 2rem;
+
+                }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .top-buttons-container {
+        margin: 0.5rem;
+        margin-top: 2rem;
+
+
+    }
+    .me-container {
+        margin: 1rem;
+    }
+        #header nav a {
+            margin: 1.2rem;
+        }
+
+}

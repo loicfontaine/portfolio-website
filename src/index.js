@@ -138,23 +138,6 @@ const contacts = [
   },
 ];
 
-console.log("hey");
-
-window.onscroll = function () {
-  myFunction();
-};
-
-var navbar = document.getElementById("header");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
 const projectsContainer = document.querySelector(".projects-container");
 const projectTemplate = document.querySelector("#project-template");
 const contactTemplate = document.querySelector("#contact-template");
@@ -234,3 +217,43 @@ var typed = new Typed(".typed", {
   loop: true,
   backDelay: 2000,
 });
+
+//animate navigation bar
+
+let section = document.querySelectorAll("section");
+let menu = document.querySelectorAll("#header nav a");
+
+const activeNavigation = () => {
+  section.forEach((i) => {
+    let top = window.scrollY;
+    let offset = i.offsetTop - 600;
+    let height = i.offsetHeight;
+    let id = i.getAttribute("id");
+
+    if (top >= offset && top < offset + height) {
+      menu.forEach((link) => {
+        link.classList.remove("active");
+
+        document
+          .querySelector("#header nav a[href*=" + id + "]")
+          .classList.add("active");
+      });
+    }
+  });
+};
+
+var navbar = document.getElementById("header");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+window.onscroll = function () {
+  myFunction();
+  activeNavigation();
+};
