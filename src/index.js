@@ -88,26 +88,51 @@ const projects = [
     ],
   },
   {
-    title: "Sleep",
+    title: "L'impact de l'hygiène de vie sur le sommeil",
     tools: [
       {
-        title: "Illustrator",
+        title: "figma",
         icon: icons.illustrator,
       },
-      { title: "Wordpress", icon: icons.wordpress },
+      { title: "D3", icon: icons.wordpress },
+      { title: "Javascript", icon: icons.wordpress },
     ],
     tags: ["Marketing", "UX Design"],
     date: "07/08/20",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl vel pretium lectus quam. At quis risus sed vulputate odio ut enim. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Purus non enim praesent elementum facilisis leo vel fringilla est. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Consectetur purus ut faucibus pulvinar ",
+      "Site web réalisé en JS avec la librairie D3. L'objectif de ce travail était d'utiliser un jeu de donnée, trouvé sur internet et de raconter une histoire à partir de ce dernier. La librairie de D3 permet de faire des graphiques avec les données obtenues. Ce travail a été réalisé lors de mes études à l'HEIG-VD.",
     image:
       "https://s3-alpha-sig.figma.com/img/48aa/1cc0/246ee2bc6c15c59565475f033a75a71c?Expires=1691366400&Signature=c2ncmNnR40bQC~MNNvPCaqxa3YMrjNCavx3J-3iGaq1H49x61ehqbrGJ03SbzthmovlaLz~VmtXswDHlUxp9ik8ETixqVmzf1WQSoSSmtwmF~HgJx1CxpclrOMGl8Jm4K2wGpkl7BapEZiw1DN6HI-sGh3wEEhN2SsUPxwXDLZwAo1KXrpVE-tIXXKcgB4H7WmNWchqw0T0Dp02YevRoiBm-55kSMoHhCaFdBzt--EMMLXZhvXZ1SMB02LNn2Y9697wjmafoZwhdjzgH6cxTTJ7L7k~9MkHbJ4-avbLdrWwIePmkHRio-haPzAiWDT~19ZQMh02feYNp1ijqyqdo3g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
     links: [
       {
         title: "Voir le site",
-        link: "https://via.placeholder.com/150",
+        link: "sleep.lfontaine.ch",
       },
-      { title: "voir le code", link: "https://via.placeholder.com/150" },
+      {
+        title: "voir le code",
+        link: "https://github.com/loicfontaine/visualdon-projet",
+      },
+    ],
+  },
+  {
+    title: "Tartempion - identité graphique",
+    tools: [
+      {
+        title: "Illustrator",
+        icon: icons.illustrator,
+      },
+      { title: "Photoshop", icon: icons.wordpress },
+    ],
+    tags: ["Design Graphique"],
+    date: "07/08/20",
+    description:
+      "Création d'une charte graphique pour une marque de bière. Ce travail a été réalisé lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/Tartempion.jpg",
+    links: [
+      {
+        title: "Voir la charte graphique",
+        link: "./fichiers/CharteGraphique_Tartempion.pdf",
+      },
     ],
   },
 ];
@@ -226,7 +251,7 @@ let menu = document.querySelectorAll("#header nav a");
 const activeNavigation = () => {
   section.forEach((i) => {
     let top = window.scrollY;
-    let offset = i.offsetTop - 600;
+    let offset = i.offsetTop - 500;
     let height = i.offsetHeight;
     let id = i.getAttribute("id");
 

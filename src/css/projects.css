@@ -49,6 +49,7 @@
     padding-bottom: 0.7rem;
     color: var(--tertiary-color);
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .tool {
@@ -59,6 +60,7 @@
     display: flex;
     align-items: center;
     height: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 .tool-text {
@@ -96,6 +98,7 @@ color: var(--gold);
     display: flex;
     align-items: center;
     height: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 .projects-container {
