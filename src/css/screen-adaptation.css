@@ -241,5 +241,9 @@
         .service {
             margin: 0 0.5rem;
         }
+        .blurred-ellipse {
+
+            display: none;
+        }
 }
 
