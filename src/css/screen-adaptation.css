@@ -250,3 +250,10 @@
         }
 }
 
+@media (max-width: 380px) {
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+}
