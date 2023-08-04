@@ -35,8 +35,13 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
 backdrop-filter: blur(10px);
     z-index: 100;
-    position: fixed;
-    position: -webkit-fixed;
+        position: sticky;
+                    position: fixed;
+            position: -webkit-sticky;
+            position: -moz-sticky;
+            position: -o-sticky;
+            position: -ms-sticky;
+
     -webkit-transition: top 0.3s ease-in-out;
     -moz-transition: top 0.3s ease-in-out;
     transition: top 0.3s ease-in-out;

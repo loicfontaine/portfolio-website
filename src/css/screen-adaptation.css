@@ -245,5 +245,8 @@
 
             display: none;
         }
+        .project {
+            height: 34rem;
+        }
 }
 
