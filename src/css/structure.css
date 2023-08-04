@@ -36,7 +36,7 @@ body {
 backdrop-filter: blur(10px);
     z-index: 100;
     position: fixed;
-    position: -webkit-sticky;
+    position: -webkit-fixed;
     -webkit-transition: top 0.3s ease-in-out;
     -moz-transition: top 0.3s ease-in-out;
     transition: top 0.3s ease-in-out;
