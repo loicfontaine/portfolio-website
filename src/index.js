@@ -328,10 +328,11 @@ projects.forEach((project) => {
     const newTag = tagTemplate.content.cloneNode(true);
     newTag.querySelector(".tag").innerText = tag;
     newProject.querySelector(".tags-container").append(newTag);
+
+    newProject.querySelector(".project").classList.add(getClassName(tag));
   });
 
   project.links.forEach((link) => {
-    console.log("mamama");
     const newLink = linkTemplate.content.cloneNode(true);
     newLink.querySelector(".btn-text").innerText = link.title;
     newLink.querySelector("a").href = link.link;
@@ -340,7 +341,6 @@ projects.forEach((project) => {
 
   project.tools.forEach((tool) => {
     const newTool = toolTemplate.content.cloneNode(true);
-    console.log("new tool", newTool);
     newTool.querySelector(".tool-text").innerText = tool.title;
     newTool.querySelector(".tool-icon").innerHTML = tool.icon;
     newProject.querySelector(".tools-container").append(newTool);
@@ -428,3 +428,43 @@ window.onscroll = function () {
   myFunction();
   activeNavigation();
 };
+
+//bouton avec filtres
+
+const services = document.querySelectorAll(".service");
+
+services.forEach((service) => {
+  service.addEventListener("click", () => {
+    let value = service.textContent;
+    let myClass = getClassName(value);
+
+    if (document.querySelector(`.${myClass}.service.filter`)) {
+      document.querySelector(`.${myClass}.service`).classList.remove("filter");
+    } else {
+      document.querySelector(`.${myClass}.service`).classList.add("filter");
+      let filters = document.querySelectorAll(".filter");
+      let filterClasses = "";
+      filters.forEach((filter) => {
+        filterClasses = `${filterClasses}.${getClassName(filter.innerText)}`;
+      });
+
+      document.querySelectorAll(".project").forEach((project) => {
+        if (project.matches(filterClasses)) {
+          project.style.display = "block";
+        } else {
+          project.style.display = "none";
+        }
+      });
+    }
+
+    if (document.querySelectorAll(".filter").length === 0) {
+      document.querySelectorAll(".project").forEach((project) => {
+        project.style.display = "block";
+      });
+    }
+  });
+});
+
+function getClassName(rawName) {
+  return rawName.trim().toLowerCase().replace(/\s/g, "-").replace("é", "e");
+}

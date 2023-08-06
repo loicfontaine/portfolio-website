@@ -10,7 +10,7 @@
 
 }
 
-.service:hover svg {
+.service:hover svg, .service.filter svg {
     visibility: visible;
 }
 

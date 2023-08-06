@@ -116,6 +116,10 @@
     display: none;
 }
 
+.service.filter {
+    color: var(--secondary-color);
+}
+
 .social-header {
     margin: 0;
 }

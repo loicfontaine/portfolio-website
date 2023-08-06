@@ -25,6 +25,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     color: var(--tertiary-color);
+
 }
 
 .project:hover {
@@ -106,7 +107,8 @@ color: var(--gold);
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
         padding: 1rem;
-        margin: var(--default-margin)
+        margin: var(--default-margin);
+        min-height: 20vh;
 }
 
 .tool-icon svg {
