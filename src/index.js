@@ -432,7 +432,7 @@ window.onscroll = function () {
 //bouton avec filtres
 
 const services = document.querySelectorAll(".service");
-
+const noProject = document.querySelector("#no-project");
 services.forEach((service) => {
   service.addEventListener("click", () => {
     let value = service.textContent;
@@ -442,29 +442,40 @@ services.forEach((service) => {
       document.querySelector(`.${myClass}.service`).classList.remove("filter");
     } else {
       document.querySelector(`.${myClass}.service`).classList.add("filter");
-      let filters = document.querySelectorAll(".filter");
-      let filterClasses = "";
-      filters.forEach((filter) => {
-        filterClasses = `${filterClasses}.${getClassName(filter.innerText)}`;
-      });
-
-      document.querySelectorAll(".project").forEach((project) => {
-        if (project.matches(filterClasses)) {
-          project.style.display = "block";
-        } else {
-          project.style.display = "none";
-        }
-      });
     }
-
-    if (document.querySelectorAll(".filter").length === 0) {
-      document.querySelectorAll(".project").forEach((project) => {
-        project.style.display = "block";
-      });
-    }
+    displayProject();
   });
 });
 
 function getClassName(rawName) {
   return rawName.trim().toLowerCase().replace(/\s/g, "-").replace("é", "e");
+}
+
+function displayProject() {
+  let filters = document.querySelectorAll(".filter");
+  if (filters.length === 0) {
+    document.querySelectorAll(".project").forEach((project) => {
+      project.style.display = "block";
+    });
+    return;
+  }
+  let filterClasses = "";
+  filters.forEach((filter) => {
+    filterClasses = `${filterClasses}.${getClassName(filter.innerText)}`;
+  });
+
+  let count = 0;
+  document.querySelectorAll(".project").forEach((project) => {
+    if (project.matches(filterClasses)) {
+      project.style.display = "block";
+      count = 0;
+      noProject.style.display = "none";
+    } else {
+      count++;
+      project.style.display = "none";
+      if (count === projects.length) {
+        noProject.style.display = "flex";
+      }
+    }
+  });
 }

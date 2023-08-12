@@ -21,6 +21,7 @@ h2 {
     font-weight: 380;
     margin: var(--default-margin);
     margin-top: 6rem;
+    margin-bottom: 2rem;
 }
 
 a {

@@ -108,9 +108,15 @@ color: var(--gold);
         grid-gap: 1rem;
         padding: 1rem;
         margin: var(--default-margin);
-        min-height: 20vh;
 }
 
 .tool-icon svg {
     fill: var(--gold);
+}
+
+#no-project {
+    display: none;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
 }

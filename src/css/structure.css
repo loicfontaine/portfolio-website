@@ -139,6 +139,7 @@ div.btn:nth-child(2) {
 
                 .image-container {
             transform: rotate3d(0.5, -0.866, 0, 15deg) rotate(1deg);
+            -webkit-transform: rotate3d(0.5, -0.866, 0, 15deg) rotate(1deg);
             transform-origin: 50% 100%;
             transform-style: preserve-3d;
             -webkit-transform-style: preserve-3d;
@@ -373,4 +374,8 @@ div.btn:nth-child(2) {
     width: 24.5625rem;
         height: 24.5625rem;
 
+}
+
+#contact {
+    margin-bottom: 8rem;
 }
