@@ -389,3 +389,13 @@ div.btn:nth-child(2) {
         }
     }
 }
+
+@media not all and (min-resolution:.001dpcm)
+
+    {
+    @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+        .image-container:hover {
+                transform: none;
+            }
+    }
+}
