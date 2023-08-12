@@ -81,6 +81,7 @@ backdrop-filter: blur(10px);
     width: 50%;
     flex-shrink: 0;
     border-radius: 4.625rem;
+    z-index: 2;
 }
 
 .social-header {
@@ -378,4 +379,13 @@ div.btn:nth-child(2) {
 
 #contact {
     margin-bottom: 8rem;
+}
+
+
+@media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance: none) {
+        .image-container:hover {
+            transform: none;
+        }
+    }
 }
