@@ -269,3 +269,9 @@
         }
     }
 }
+
+_::-webkit-full-page-media,
+_:future,
+    .image-container:hover {
+        transform: none;
+    }
