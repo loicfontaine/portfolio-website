@@ -381,3 +381,11 @@ div.btn:nth-child(2) {
     margin-bottom: 8rem;
 }
 
+.image-container {
+    transform: none;
+}
+
+.filler {
+    height: 4rem;
+    display: none;
+}

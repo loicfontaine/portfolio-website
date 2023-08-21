@@ -85,26 +85,25 @@ const icons = {
 
 const projects = [
   {
-    title: "Green Lama - Ecosystème digitale",
+    title: "Couleur 3 - Site web",
     tools: [
-      {
-        title: "Illustrator",
-        icon: icons.illustrator,
-      },
-      { title: "Wordpress", icon: icons.wordpress },
-      { title: "Indesign", icon: icons.indesign },
+      { title: "MySql", icon: icons.mysql },
+      { title: "php", icon: icons.php },
     ],
-    tags: ["Marketing", "Communication", "Design graphique"],
-    date: "01/2022",
+    tags: ["Programmation"],
+    date: "06/2023",
     description:
-      "Création d'un site et son écosystème digitale pour une marque fictive autour de la mode écoresponsable. Lors de ce projet, nous avons créé l'identité visuelle de la marque, mise en place un site web Wordpress et développé les réseaux sociaux. Parallèlement, nous avons optimisé le référencement du site ainsi qu'une campagne SEA . Malheureusement, le site web n'est plus hébergé et n'est disponible uniquement sur la Wayback machine. Ce projet a été réalisé à deux lors de mes études à l'HEIG-VD.",
-    image: "./fichiers/Green-lama.png",
+      "Réalisation d'un site web pour la radio Couleur 3 avec une équipe de huit personnes. Je me suis chargé de la partie back-end de ce projet en laravel. Ce projet a été réalisé lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/couleur3.png",
     links: [
       {
         title: "Voir le site",
-        link: "https://web.archive.org/web/20220504132726/https://green-lama.ch/",
+        link: "https://flop-pingouin.heig-vd.ch/home",
       },
-      { title: "voir le rapport", link: "./fichiers/Rapport-GreenLama.pdf" },
+      {
+        title: "Voir le code",
+        link: "https://github.com/loicfontaine/FlopV2",
+      },
     ],
   },
   {
@@ -117,7 +116,7 @@ const projects = [
       { title: "D3", icon: icons.d3 },
       { title: "Javascript", icon: icons.javascript },
     ],
-    tags: ["Programmation", "UX Design"],
+    tags: ["Programmation", "Expérience utilisateur"],
     date: "05/2023",
     description:
       "Site web réalisé en JS avec la librairie D3. L'objectif de ce travail était d'utiliser un jeu de donnée, trouvé sur internet et de raconter une histoire à partir de ce dernier. La librairie de D3 permet de faire des graphiques avec les données obtenues. Ce travail a été réalisé lors de mes études à l'HEIG-VD.",
@@ -130,6 +129,26 @@ const projects = [
       {
         title: "voir le code",
         link: "https://github.com/loicfontaine/visualdon-projet",
+      },
+    ],
+  },
+
+  {
+    title: "Prototype - Radio On en parle",
+    tools: [{ title: "Figma", icon: icons.figma }],
+    tags: [
+      "Expérience utilisateur",
+      "Interface utilisateur",
+      "Design Graphique",
+    ],
+    date: "03/2023",
+    description:
+      "Réflexion autour de l'expérience utilisateur des auditeurs de la radio RTS 'On en parle', puis réalisation d'un prototype d'un site web afin de répondre à leur besoin. Ce projet a été réalisé aux Hackdays de la RTS.",
+    image: "./fichiers/On-en-parle.jpg",
+    links: [
+      {
+        title: "Voir le figma",
+        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
       },
     ],
   },
@@ -155,6 +174,48 @@ const projects = [
     ],
   },
   {
+    title: "Brochure FoxTown",
+    tools: [
+      { title: "Indesign", icon: icons.indesign },
+      { title: "Photoshop", icon: icons.photoshop },
+      { title: "Illustrator", icon: icons.illustrator },
+    ],
+    tags: ["Design Graphique"],
+    date: "02/2022",
+    description:
+      "Réalisation d'une brochure sur les renards avec la création du logo et retouches des images. Ce projet a été réalisé lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/foxTown.jpg",
+    links: [
+      {
+        title: "Voir la brochure",
+        link: "./fichiers/FoxTown_Brochure.pdf",
+      },
+    ],
+  },
+  {
+    title: "Green Lama - Ecosystème digitale",
+    tools: [
+      {
+        title: "Illustrator",
+        icon: icons.illustrator,
+      },
+      { title: "Wordpress", icon: icons.wordpress },
+      { title: "Indesign", icon: icons.indesign },
+    ],
+    tags: ["Marketing", "Communication", "Design graphique"],
+    date: "01/2022",
+    description:
+      "Création d'un site et son écosystème digitale pour une marque fictive autour de la mode écoresponsable. Lors de ce projet, nous avons créé l'identité visuelle de la marque, mise en place un site web Wordpress et développé les réseaux sociaux. Parallèlement, nous avons optimisé le référencement du site ainsi qu'une campagne SEA . Malheureusement, le site web n'est plus hébergé et n'est disponible uniquement sur la Wayback machine. Ce projet a été réalisé à deux lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/Green-lama.png",
+    links: [
+      {
+        title: "Voir le site",
+        link: "https://web.archive.org/web/20220504132726/https://green-lama.ch/",
+      },
+      { title: "voir le rapport", link: "./fichiers/Rapport-GreenLama.pdf" },
+    ],
+  },
+  {
     title: "Affiche pour Decathlon",
     tools: [
       {
@@ -172,6 +233,21 @@ const projects = [
       {
         title: "Voir l'affiche",
         link: "./fichiers/Affiche_Compex.jpg",
+      },
+    ],
+  },
+  {
+    title: "Analyse de l'écosystème digitale de Breitling",
+    tools: [{ title: "Indesign", icon: icons.indesign }],
+    tags: ["Marketing"],
+    date: "12/2021",
+    description:
+      "Analyse de l'écosystème digitale de Breitling. Ce projet a été réalisé à deux lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/Breitling.jpg",
+    links: [
+      {
+        title: "Voir le rapport",
+        link: "./fichiers/Ecosysteme_digitale_Breitling.pdf",
       },
     ],
   },
@@ -196,73 +272,7 @@ const projects = [
       },
     ],
   },
-  {
-    title: "Analyse de l'écosystème digitale de Breitling",
-    tools: [{ title: "Indesign", icon: icons.indesign }],
-    tags: ["Marketing"],
-    date: "12/2021",
-    description:
-      "Analyse de l'écosystème digitale de Breitling. Ce projet a été réalisé à deux lors de mes études à l'HEIG-VD.",
-    image: "./fichiers/Breitling.jpg",
-    links: [
-      {
-        title: "Voir le rapport",
-        link: "./fichiers/Ecosysteme_digitale_Breitling.pdf",
-      },
-    ],
-  },
-  {
-    title: "Prototype - Radio On en parle",
-    tools: [{ title: "Figma", icon: icons.figma }],
-    tags: ["UX", "UI Design", "Design Graphique"],
-    date: "03/2023",
-    description:
-      "Réflexion autour de l'expérience utilisateur des auditeurs de la radio RTS 'On en parle', puis réalisation d'un prototype d'un site web afin de répondre à leur besoin. Ce projet a été réalisé aux Hackdays de la RTS.",
-    image: "./fichiers/On-en-parle.jpg",
-    links: [
-      {
-        title: "Voir le figma",
-        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
-      },
-    ],
-  },
-  {
-    title: "Brochure FoxTown",
-    tools: [
-      { title: "Indesign", icon: icons.indesign },
-      { title: "Photoshop", icon: icons.photoshop },
-      { title: "Illustrator", icon: icons.illustrator },
-    ],
-    tags: ["Design Graphique"],
-    date: "03/2023",
-    description:
-      "Réalisation d'une brochure sur les renards avec la création du logo et retouches des images. Ce projet a été réalisé lors de mes études à l'HEIG-VD.",
-    image: "./fichiers/On-en-parle.jpg",
-    links: [
-      {
-        title: "Voir le figma",
-        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
-      },
-    ],
-  },
-  {
-    title: "Couleur 3 - Site web",
-    tools: [
-      { title: "MySql", icon: icons.mysql },
-      { title: "php", icon: icons.php },
-    ],
-    tags: ["UX", "UI Design", "Design Graphique"],
-    date: "03/2023",
-    description:
-      "Réflexion autour de l'expérience utilisateur des auditeurs de la radio RTS 'On en parle', puis réalisation d'un prototype d'un site web afin de répondre à leur besoin. Ce projet a été réalisé aux Hackdays de la RTS.",
-    image: "./fichiers/On-en-parle.jpg",
-    links: [
-      {
-        title: "Voir le figma",
-        link: "https://www.figma.com/proto/hTRNDpaYViu6urW7QHGNc2/Prototype?node-id=6-31&scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A27&show-proto-sidebar=1&mode=design&t=fXYP0eMD8KWKLTAb-1",
-      },
-    ],
-  },
+
   /* ENCORE EN COURS
   {
     title: "Twitch",
@@ -415,12 +425,15 @@ const activeNavigation = () => {
 
 var navbar = document.getElementById("header");
 var sticky = navbar.offsetTop;
+var filler = document.querySelector(".filler");
 
 function myFunction() {
   if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky");
+    filler.style.display = "block";
   } else {
     navbar.classList.remove("sticky");
+    filler.style.display = "none";
   }
 }
 
