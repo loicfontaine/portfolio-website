@@ -85,9 +85,61 @@ const icons = {
 <path d="M20.2651 19.915H7.66505L4.94672 28H3.51172L13.1134 0H14.8867L24.4884 28H22.9717L20.2651 19.915ZM19.8101 18.5967L13.9767 1.14333L8.10839 18.62H19.8101V18.5967Z"/>
 </svg>
 `,
+nuxt: `<svg width="31" height="21" viewBox="0 0 31 21" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.35 20.7767H28.7584C29.1222 20.7767 29.4706 20.6488 29.7867 20.4684C30.1012 20.288 30.4265 20.0614 30.6084 19.75C30.7903 19.437 30.9167 19.0824 30.9167 18.7217C30.9167 18.3609 30.7903 18.0063 30.6084 17.6934L22.9 4.43505C22.7319 4.13302 22.4825 3.88414 22.1801 3.71664C21.8336 3.52462 21.446 3.41886 21.05 3.4083C20.6862 3.4083 20.3378 3.53626 20.0217 3.71664C19.7199 3.88437 19.4711 4.13323 19.3033 4.43505L17.35 7.82672L13.445 1.24997C13.2631 0.937013 13.0411 0.607096 12.725 0.426721C12.409 0.246346 12.0621 0.22168 11.6967 0.22168C11.3329 0.22168 10.9845 0.246346 10.67 0.426721C10.3555 0.607096 10.0287 0.935471 9.84675 1.24997L0.288416 17.6934C0.106499 18.0063 0.083374 18.3609 0.083374 18.7217C0.083374 19.0824 0.106499 19.437 0.288416 19.75C0.470332 20.0614 0.797166 20.2896 1.11167 20.4684C1.42617 20.6472 1.77458 20.7767 2.13842 20.7767H9.33337C12.1855 20.7767 14.259 19.4971 15.7051 17.0767L19.2 11.0133L21.05 7.82672L26.7033 17.4883H19.2L17.35 20.7767ZM9.23008 17.4883H4.195L11.6967 4.53835L15.5 11.0133L12.981 15.404C12.0205 16.9765 10.9259 17.4883 9.23008 17.4883Z"/>
+</svg>
+`,
+tailwind: `<svg width="30" height="18" viewBox="0 0 30 18" xmlns="http://www.w3.org/2000/svg">
+<path d="M15 0C10.995 0 8.505 1.995 7.5 6C9 4.005 10.755 3.255 12.75 3.75C13.89 4.035 14.715 4.86 15.615 5.775C17.085 7.275 18.75 9 22.5 9C26.505 9 28.995 7.005 30 3C28.5 4.995 26.745 5.745 24.75 5.25C23.61 4.965 22.8 4.14 21.885 3.225C20.415 1.725 18.75 0 15 0ZM7.5 9C3.495 9 1.005 10.995 0 15C1.5 13.005 3.255 12.255 5.25 12.75C6.39 13.035 7.2 13.86 8.115 14.775C9.585 16.275 11.25 18 15 18C19.005 18 21.495 16.005 22.5 12C21 13.995 19.245 14.745 17.25 14.25C16.11 13.965 15.3 13.14 14.385 12.225C12.915 10.725 11.25 9 7.5 9Z"/>
+</svg>`,
 };
 
 const projects = [
+  {
+    title: "Timesheet automatique pour Liip SA - Rewind",
+    tools: [
+
+      { title: "Nuxt", icon: icons.nuxt },
+      { title: "Vue", icon: icons.vue },
+      { title: "Tailwind", icon: icons.tailwind },
+    ],
+    tags: ["Programmation", "Design d'interface", "Design graphique"],
+    date: "04/2025",
+    description:
+      "Dans le cadre de mon Travail de Bachelor chez Liip SA, j'ai développé Rewind, un logiciel qui génère automatiquement des timesheets à partir de l'activité numérique des employés, sans stocker leurs données. Grâce à une extension de navigateur et une application web, Rewind analyse les interactions avec Google Calendar, Slack et GitHub pour proposer une fiche d'heures personnalisée. Ce projet répond à un double enjeu : faciliter le suivi du temps de travail tout en garantissant une transparence et une gestion éthique des données.",
+    image: "./fichiers/Rewind.png",
+    links: [
+      {
+        title: "Voir le résumé",
+        link: "./fichiers/LF_TB_Affiche.pdf",
+      },
+      {
+        title: "Voir le site demo",
+        link: "https://demo-rewind.lfontaine.ch/"
+      }
+    ],
+  },
+  {
+    title: "On The Way - Podcast",
+    tools: [
+      {
+        title: "Illustrator",
+        icon: icons.illustrator,
+      },
+      { title: "Nuxt", icon: icons.nuxt },
+    ],
+    tags: ["Design graphique", "Programmation"],
+    date: "06/2024",
+    description:
+      "Création d'un podcast afin de mettre en avant la ville d'Yverdon avec une équipe de 10 personnes. Je me suis chargée de la création du logo, ainsi qu'un partie du développement du site. Ce projet a été réalisé lors de mes études à l'HEIG-VD.",
+    image: "./fichiers/On-The-Way.jpg",
+    links: [
+      {
+        title: "Ecouter le podcast",
+        link: "https://open.spotify.com/show/5KltPDMmojkE2Xmb3PX6y4?si=ac3f4d8b61234ebf",
+      },
+    ],
+  },
   {
     title: "Course à ski - Jeu VR",
     tools: [
