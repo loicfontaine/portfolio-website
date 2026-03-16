@@ -1,29 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100;200;300;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100;200;300;500;600;700;800;900&display=swap");
 
 * {
-    font-family: 'M PLUS 2', sans-serif;
-    color: var(--tertiary-color);
+  font-family: "M PLUS 2", sans-serif;
+  color: var(--tertiary-color);
 }
 
 h1 {
-    font-size: 5rem;
-    font-weight: 400;
+  font-size: 5rem;
+  font-weight: 400;
 }
 
-
-
-
-
-
-
 h2 {
-    font-size: 1.9375rem;
-    font-weight: 380;
-    margin: var(--default-margin);
-    margin-top: 6rem;
-    margin-bottom: 2rem;
+  font-size: 1.9375rem;
+  font-weight: 380;
+  margin: var(--default-margin);
+  margin-top: 6rem;
+  margin-bottom: 2rem;
 }
 
 a {
-    color: transparent;
+  color: transparent;
 }

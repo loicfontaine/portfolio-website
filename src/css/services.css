@@ -1,32 +1,29 @@
 .service {
-    font-size: 4.5rem;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+  font-size: 4.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .service svg {
-    visibility: hidden;
-
+  visibility: hidden;
 }
 
 .service.filter svg {
-    visibility: visible;
+  visibility: visible;
 }
 
-
-
 .right {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 hr {
-    width: 100%;
-    border: 0.02rem solid var(--tertiary-color);
+  width: 100%;
+  border: 0.02rem solid var(--tertiary-color);
 }
 
 .services-container {
-    display: flex;
-    margin: 0 4.3%;
-    align-items: center;
+  display: flex;
+  margin: 0 4.3%;
+  align-items: center;
 }

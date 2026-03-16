@@ -1,11 +1,11 @@
 /* Packages */
-@import 'normalize.css';
+@import "normalize.css";
 
 /* Project */
-@import 'variables.css';
-@import 'structure.css';
-@import 'typography.css';
-@import 'buttons.css';
-@import 'services.css';
-@import 'projects.css';
-@import 'screen-adaptation.css';
+@import "variables.css";
+@import "structure.css";
+@import "typography.css";
+@import "buttons.css";
+@import "services.css";
+@import "projects.css";
+@import "screen-adaptation.css";
