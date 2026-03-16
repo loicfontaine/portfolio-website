@@ -85,26 +85,92 @@ const icons = {
 <path d="M20.2651 19.915H7.66505L4.94672 28H3.51172L13.1134 0H14.8867L24.4884 28H22.9717L20.2651 19.915ZM19.8101 18.5967L13.9767 1.14333L8.10839 18.62H19.8101V18.5967Z"/>
 </svg>
 `,
-nuxt: `<svg width="31" height="21" viewBox="0 0 31 21" xmlns="http://www.w3.org/2000/svg">
+  nuxt: `<svg width="31" height="21" viewBox="0 0 31 21" xmlns="http://www.w3.org/2000/svg">
 <path d="M17.35 20.7767H28.7584C29.1222 20.7767 29.4706 20.6488 29.7867 20.4684C30.1012 20.288 30.4265 20.0614 30.6084 19.75C30.7903 19.437 30.9167 19.0824 30.9167 18.7217C30.9167 18.3609 30.7903 18.0063 30.6084 17.6934L22.9 4.43505C22.7319 4.13302 22.4825 3.88414 22.1801 3.71664C21.8336 3.52462 21.446 3.41886 21.05 3.4083C20.6862 3.4083 20.3378 3.53626 20.0217 3.71664C19.7199 3.88437 19.4711 4.13323 19.3033 4.43505L17.35 7.82672L13.445 1.24997C13.2631 0.937013 13.0411 0.607096 12.725 0.426721C12.409 0.246346 12.0621 0.22168 11.6967 0.22168C11.3329 0.22168 10.9845 0.246346 10.67 0.426721C10.3555 0.607096 10.0287 0.935471 9.84675 1.24997L0.288416 17.6934C0.106499 18.0063 0.083374 18.3609 0.083374 18.7217C0.083374 19.0824 0.106499 19.437 0.288416 19.75C0.470332 20.0614 0.797166 20.2896 1.11167 20.4684C1.42617 20.6472 1.77458 20.7767 2.13842 20.7767H9.33337C12.1855 20.7767 14.259 19.4971 15.7051 17.0767L19.2 11.0133L21.05 7.82672L26.7033 17.4883H19.2L17.35 20.7767ZM9.23008 17.4883H4.195L11.6967 4.53835L15.5 11.0133L12.981 15.404C12.0205 16.9765 10.9259 17.4883 9.23008 17.4883Z"/>
 </svg>
 `,
-tailwind: `<svg width="30" height="18" viewBox="0 0 30 18" xmlns="http://www.w3.org/2000/svg">
+  tailwind: `<svg width="30" height="18" viewBox="0 0 30 18" xmlns="http://www.w3.org/2000/svg">
 <path d="M15 0C10.995 0 8.505 1.995 7.5 6C9 4.005 10.755 3.255 12.75 3.75C13.89 4.035 14.715 4.86 15.615 5.775C17.085 7.275 18.75 9 22.5 9C26.505 9 28.995 7.005 30 3C28.5 4.995 26.745 5.745 24.75 5.25C23.61 4.965 22.8 4.14 21.885 3.225C20.415 1.725 18.75 0 15 0ZM7.5 9C3.495 9 1.005 10.995 0 15C1.5 13.005 3.255 12.255 5.25 12.75C6.39 13.035 7.2 13.86 8.115 14.775C9.585 16.275 11.25 18 15 18C19.005 18 21.495 16.005 22.5 12C21 13.995 19.245 14.745 17.25 14.25C16.11 13.965 15.3 13.14 14.385 12.225C12.915 10.725 11.25 9 7.5 9Z"/>
 </svg>`,
+  python: `<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2501_75)">
+<mask id="mask0_2501_75" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="26">
+<path d="M0 0H26V26H0V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_2501_75)">
+<path d="M12.9068 0C6.305 0 6.71667 2.87733 6.71667 2.87733L6.72425 5.85867H13.0227V6.7535H4.225C4.225 6.7535 0 6.27142 0 12.9664C0 19.6614 3.68658 19.4231 3.68658 19.4231H5.88575V16.3172C5.88575 16.3172 5.76767 12.6122 9.51492 12.6122H15.7614C15.7614 12.6122 19.2714 12.6685 19.2714 9.20183V3.46883C19.2714 3.46883 19.8044 0 12.9068 0ZM9.43367 2.00417C10.0598 2.00417 10.5668 2.51333 10.5668 3.14383C10.5668 3.77325 10.0598 4.28242 9.43367 4.28242C8.8075 4.28242 8.3005 3.77325 8.3005 3.14383C8.3005 2.51333 8.80642 2.00417 9.43367 2.00417Z"/>
+<path d="M13.0942 25.9999C19.6939 25.9999 19.2822 23.1226 19.2822 23.1226L19.2746 20.1413H12.9761V19.2464H21.7761C21.7761 19.2464 26.0011 19.7285 26.0011 13.0335C26.0011 6.33853 22.3134 6.57686 22.3134 6.57686H20.1142V9.68277C20.1142 9.68277 20.2323 13.3878 16.4851 13.3878H10.2396C10.2396 13.3878 6.72964 13.3314 6.72964 16.7981V22.5311C6.72964 22.5311 6.19664 25.9999 13.0942 25.9999ZM16.5674 23.9958C15.9401 23.9958 15.4342 23.4866 15.4342 22.8561C15.4342 22.2267 15.9401 21.7175 16.5674 21.7175C17.1936 21.7175 17.7006 22.2267 17.7006 22.8561C17.7006 23.4866 17.1936 23.9958 16.5674 23.9958Z"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2501_75">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+`,
+  pandas: `
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.3926 1V19.1041H21V1H18.3926ZM10.1888 2.41862V7.8655H12.7963V2.41844L10.1888 2.41862ZM6 6.89612V25H8.60737V6.89594L6 6.89612ZM14.2915 6.9025V12.3488H16.8988V6.9025H14.2915ZM10.1888 9.45475V12.0244H12.7963V9.45475H10.1888ZM10.1888 13.6066V19.0525H12.7963V13.6064L10.1888 13.6066ZM14.2915 13.9398V16.5094H16.8988V13.9398H14.2915ZM14.2915 18.1004V23.5465H16.8988V18.1002L14.2915 18.1004Z"/>
+</svg>`,
+  firebase: `<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25 23.3625L15.875 28.425C15.25 28.75 14.625 28.75 14 28.425L5 23.3625L21.3125 6.92505L21.75 6.80005C22.125 6.80005 22.3375 6.96255 22.375 7.30005L25 23.3625ZM11.6875 7.17505L6 16.6125L8.375 1.67505C8.4125 1.33755 8.625 1.17505 9 1.17505C9.25 1.17505 9.4125 1.25005 9.5 1.48755L12.1875 6.42505L11.6875 7.17505ZM17.3125 8.75005L5.375 20.7375L14.4375 5.36255C14.5625 5.11255 14.75 5.00005 15 5.00005C15.25 5.00005 15.4125 5.11255 15.5 5.36255L17.3125 8.75005Z"/>
+</svg>
+`,
+  flutter: `<svg width="22" height="26" viewBox="0 0 22 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.20816 16.9886L0 13L13.6146 0H22L4.20816 16.9886ZM13.6146 26L6.28129 18.9977L13.6146 11.9955H22L14.6667 18.9977L22 26H13.6146Z"/>
+</svg>
+
+`,
 };
 
 const projects = [
   {
+    title: "Machine learning - Automatisation des timesheets pour Liip SA",
+    tools: [
+      { title: "Python", icon: icons.python },
+      { title: "Pandas", icon: icons.pandas },
+    ],
+    tags: ["Programmation"],
+    date: "03/2026",
+    description:
+      "Dans le cadre de mon Travail de Master, j'ai continué le projet de Bachelor effectué chez Liip SA, en développant la logique via du machine learning. L’étude propose de transformer les traces numériques quotidiennes: issues de calendriers, degestionnaires de tickets et d’outils de développement en suggestions de feuilles de temps cohérentes. Différentes modèles ont été testés, allant de similarité sémantique à des modèles séquentiels profonds comme les LSTM.",
+    image: "./fichiers/ML.png",
+    links: [
+      {
+        title: "Voir le résumé",
+        link: "./fichiers/LF_TM_Affiche.pdf",
+      },
+    ],
+  },
+  {
+    title: "GuessGroove - Application de jeu musical",
+    tools: [
+      { title: "Flutter", icon: icons.flutter },
+      { title: "Firebase", icon: icons.firebase },
+      { title: "Figma", icon: icons.figma },
+    ],
+    tags: ["Programmation", "Design d'interface", "Design graphique"],
+    date: "04/2025",
+    description:
+      "GuessGroove est une application de jeu musical développée en Flutter, utilisant Firebase pour la gestion des données. L'application propose une expérience interactive où les utilisateurs peuvent deviner des chansons à partir de courts extraits musicaux, tout en offrant une interface utilisateur attrayante et intuitive.",
+    image: "./fichiers/Guessgroove.png",
+    links: [
+      {
+        title: "Voir le rapport",
+        link: "./fichiers/GuessGroove_rapport.pdf",
+      },
+    ],
+  },
+  {
     title: "Timesheet automatique pour Liip SA - Rewind",
     tools: [
-
       { title: "Nuxt", icon: icons.nuxt },
       { title: "Vue", icon: icons.vue },
       { title: "Tailwind", icon: icons.tailwind },
     ],
     tags: ["Programmation", "Design d'interface", "Design graphique"],
-    date: "04/2025",
+    date: "08/2024",
     description:
       "Dans le cadre de mon Travail de Bachelor chez Liip SA, j'ai développé Rewind, un logiciel qui génère automatiquement des timesheets à partir de l'activité numérique des employés, sans stocker leurs données. Grâce à une extension de navigateur et une application web, Rewind analyse les interactions avec Google Calendar, Slack et GitHub pour proposer une fiche d'heures personnalisée. Ce projet répond à un double enjeu : faciliter le suivi du temps de travail tout en garantissant une transparence et une gestion éthique des données.",
     image: "./fichiers/Rewind.png",
@@ -115,8 +181,8 @@ const projects = [
       },
       {
         title: "Voir le site demo",
-        link: "https://demo-rewind.lfontaine.ch/"
-      }
+        link: "https://demo-rewind.lfontaine.ch/",
+      },
     ],
   },
   {
@@ -129,7 +195,7 @@ const projects = [
       { title: "Nuxt", icon: icons.nuxt },
     ],
     tags: ["Design graphique", "Programmation"],
-    date: "06/2024",
+    date: "05/2024",
     description:
       "Création d'un podcast afin de mettre en avant la ville d'Yverdon avec une équipe de 10 personnes. Je me suis chargée de la création du logo, ainsi qu'un partie du développement du site. Ce projet a été réalisé lors de mes études à l'HEIG-VD.",
     image: "./fichiers/On-The-Way.jpg",
@@ -466,10 +532,11 @@ reveal();
 
 var typed = new Typed(".typed", {
   strings: [
+    "Ingénieur logiciel",
     "Ingénieur des médias",
     "Développeur front-end",
-    "Développeur back-end",
-    "Designer",
+    "Développeur full-stack",
+    "UX/UI designer",
   ],
   typeSpeed: 50,
   backSpeed: 50,
@@ -522,17 +589,17 @@ window.onscroll = function () {
 
 //bouton avec filtres
 
-const services = document.querySelectorAll(".service");
+const tags = document.querySelectorAll(".tag");
 const noProject = document.querySelector("#no-project");
-services.forEach((service) => {
-  service.addEventListener("click", () => {
-    let value = service.textContent;
+tags.forEach((tag) => {
+  tag.addEventListener("click", () => {
+    let value = tag.textContent;
     let myClass = getClassName(value);
 
-    if (document.querySelector(`.${myClass}.service.filter`)) {
-      document.querySelector(`.${myClass}.service`).classList.remove("filter");
+    if (document.querySelector(`.${myClass}.tag.filter`)) {
+      document.querySelector(`.${myClass}.tag`).classList.remove("filter");
     } else {
-      document.querySelector(`.${myClass}.service`).classList.add("filter");
+      document.querySelector(`.${myClass}.tag`).classList.add("filter");
     }
     displayProject();
   });
